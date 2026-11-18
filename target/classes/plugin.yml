@@ -1,0 +1,16 @@
+name: DeathBan
+version: 1.1.0
+main: pl.deathban.DeathBanPlugin
+api-version: "1.21"
+description: Death ban with Wither spawn sound and a settings menu.
+commands:
+  deathban:
+    description: Opens the DeathBan settings menu.
+    usage: /deathban
+permissions:
+  deathban.admin:
+    description: Allows opening the /deathban menu.
+    default: op
+  deathban.bypass:
+    description: Player with this permission is not banned on death.
+    default: false
